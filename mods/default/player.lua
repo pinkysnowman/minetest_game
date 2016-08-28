@@ -17,7 +17,7 @@ end
 -- Default player appearance
 default.player_register_model("character.b3d", {
 	animation_speed = 30,
-	textures = {"character.png", },
+	textures = {"character.png", "blank.png"}, --First texture is for older 1.0 skins, second handles 1.8+
 	animations = {
 		-- Standard animations.
 		stand     = { x=  0, y= 79, },
